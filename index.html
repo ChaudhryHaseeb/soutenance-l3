@@ -1,0 +1,273 @@
+<html lang="fr">
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="reveal.js/css/theme/moon.css">
+        <link rel="stylesheet" href="reveal.js/lib/css/atom-one-light.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+                <!-- INTRODUCTION -->
+
+				<section data-markdown>
+                    <textarea data-template>
+                        # Stage à l'université Paris Nanterre
+
+                        ### Correction Automatique à base de Tests
+                        <small>
+                            Par Haseeb Chaudhry
+                        </small>
+                    </textarea>
+                </section>
+
+                <!-- SOMMAIRE -->
+
+                <section data-markdown>
+                    <textarea data-template>
+                        # Sommaire
+
+                        * Présentation de C.A.T
+                        * Les outils et technologies utilisés
+                        * Le déroulement du stage
+                        * Amelioration à venir
+                        * Bilan
+                    </textarea>
+                </section>
+
+                <!-- PRENTATION DE C.A.T. -->
+                <section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            # Présentation de C.A.T 
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Correction Automatique à bases de Tests
+                            
+                            * **Faciliter** l'évaluation
+                                * Correction **automatique** ou semi-automatique en langage C
+                                * Remonter des **indicateurs** sur la participation
+                                * Corriger **en ligne**
+
+                            * Evaluer et **certifier** le niveau d'un étudiant
+                            
+                        </textarea>
+                    </section>
+                   
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Pour les étudiants
+
+                            * Améliorer l'autonomie
+                            * Améliorer le suivi
+                            * Avoir un Contenu personnalisé en fonction du niveau
+                            * Apporter des indicateurs sur les compétences acquises
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Pour les enseignants
+
+                            * Economiser du temps dans la **création** de support
+                            * Faciliter le **partage**
+                            * Faciliter la **diffusion**
+                            * Archiver les supports, la correction et les dépôts étudiants
+                        </textarea>
+                    </section>
+                    
+                    <section data-markdown>
+                        <h2>L'équipe</h1>
+                        <textarea data-template>
+                            ## L'équipe 
+                            * François Delbot maître de conférences
+                            * Valentin Bouquet étudiant M2 Miage
+                            * Sang Cao Doctorant en informatique
+                            * Ludwig Simon étudiant M1 Miage
+                            * Alexandre Petit-Pas étudiant M1 Miage
+                            * Damien Jaime étudiant L3 Miage
+                            * Haseeb Chaudhry étudiant L3 Miage
+                            * Jérémy Lou étudiant L3 Miage
+                        </textarea>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Fonctionnalités
+
+                            * Création de supports de cours ou TD (LaTeX)
+                            * Participer à un cours ou TD
+                            * Partager les supports
+                            * Correction automatique
+                            * Tableau de bord sur les étudiants
+                            * Consulter les statistiques des étudiants
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Exercices
+
+                            Différents types disponibles
+
+                            * Programmation
+                            * Expression libre
+                            * QCM
+                            * Texte à trou
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Outil de génération
+
+                            * Module python: moulinette_tools
+                            * A partir d'un fichier C génère l'ensemble des exercice et des tests pour chaque exercice
+                            * La génération se fait en analysant l'AST avec les outils de Clang
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## La mission
+                            
+                            * Améliorer l'interface du site en la rendant plus simple d'utilisation
+                            * Corriger les bogues
+                            * Implémenter de nouvelle Fonctionnalités
+                                * Créer une page les statistiques des étudiants
+                                * Mettre en place les compétitions
+                                * Créer une messagerie interne
+                            * Simplifier l'utilisation de l'outil
+
+                        </textarea>
+                    </section>           
+                </section>
+
+                <!-- Les outils et les technologies utilises -->
+
+                <section>
+                    <section>
+                        <h1>Les outils et les technologies utilisés</h1>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Python
+
+                            * Langage de programmation typé dynamiquement
+                            * Programmation objet
+                            * Version 3.5
+                        </textarea>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            # Django
+
+                            Framework python pour le développement web
+
+                            * Principes MVC
+                            * Techniques ORM
+                            * Facilitateur d'interface dit "CRUD"
+                            * Système d'authentification
+                            * Système de template
+                            * Une très bonne documentation 
+                        </textarea>
+                    </section>
+                    
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Git
+                            
+                            * Outil gratuit et open source de gestion de version
+                            * Disponible sur Windows, Linux et OSX
+                            * Maintenir des versions du logiciel à partir des évolutions du code
+ 
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                            <textarea data-template>
+                                ## Gogs
+
+                                * Gogs est un service web d'hébergement
+                                * Créer un dépôt
+                                * Accéder au code branche par branche 
+                                * Modifier le code
+
+                            </textarea>
+                    </section>
+               
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## VM Virtualbox
+
+                            **Logiciel de virtualisation**
+
+                            * Disponible sur OSX, Linux et Windows
+                            * Créer une machine virtuelle sur notre machine physique
+                            * Interface graphique facile à prendre en main
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Vagrant
+
+                            **Logiciel pour déployer et configurer**
+
+                            * Dispose d'une interface en ligne de commande simple
+                            * Met à disposition des "box" pour configurer plus simplement son environnement
+                            * Permet de reproduire le déploiement sur plusieurs systèmes d'exploitations
+                        </textarea>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            ## Pycharm
+
+                            * Interpretation depuis l'hôte
+                            * **Visual Studio Code** (+plugins)
+                            * **Sublime Text** (Interpretation plugin SFTP)
+                            * **Emacs**, **VIM**, ...
+                        </textarea>
+                    </section>
+            </section>
+
+
+                <!-- L'avenir de la plateforme -->
+                <section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            # Le déroulement du stage
+                        </textarea>
+                    </section>
+                </section>
+
+                <section>
+                        <section data-markdown>
+                            <textarea data-template>
+                                # Les Amélioration à venir
+                            </textarea>
+                        </section>
+                    </section>
+
+                <!-- Bilan -->
+                <section data-markdown>
+                    <textarea data-template>
+                        # Bilan
+
+                    </textarea>
+                </section>
+
+			</div>
+        </div>
+        <script src="reveal.js/js/reveal.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="reveal.js/plugin/markdown/marked.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/zoom-js/zoom.js"></script>
+		<script>
+			Reveal.initialize({
+                history: true
+            });
+		</script>
+	</body>
+</html>
